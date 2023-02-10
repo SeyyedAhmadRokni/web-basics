@@ -1,0 +1,39 @@
+body {
+    margin: 90px;
+}
+
+#turtle-content{
+    width: 900px;
+    margin: 0px auto 100px auto;
+    border: 10px solid rgba(0,0,0,0.5);
+    background-color: rgb(0, 255, 153);
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.2);
+}
+
+h1{
+    padding: 50px 10px 20px 10px;
+    font-family: Arial;
+    color:rgb(245, 111, 39); 
+    text-align:center;
+}
+
+#ninja-turtle{
+    color:rgb(251, 1, 1); 
+}
+
+#main_p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 75px;
+    margin-top: -90px;
+    /* border-color: red; */
+}

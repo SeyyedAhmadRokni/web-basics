@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: rgb(210, 235, 238);
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(123,12,213);
+    text-decoration: underline;
+}
