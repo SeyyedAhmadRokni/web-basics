@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    width: 250px;
+    margin: 20px;
+    padding: 0;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li{
+    width: 100px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a{
+    font-family: 'Mouse+Memoirs',sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.225);
+    border-radius: 6px;
+}
+
+header a:hover{
+    background-color: white;
+    color: rgba(42, 136, 251, 0.8);
+    padding: 5px 10px;
+
+}

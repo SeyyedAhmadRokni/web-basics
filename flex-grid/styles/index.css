@@ -1,0 +1,65 @@
+header{
+    position: absolute;
+}
+#logo img {
+    width: 150px;
+    padding: 10px;
+}
+
+#hero{
+    height: 900px;
+    background-image: url("/flex-grid/images/places/chars7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 4px 6px black;
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+#hero-content h1{
+    font-size: 57px;
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', sans-serif;
+    text-transform: uppercase;
+}
+#hero-content p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Julee', sans-serif;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#hero-content a{
+    text-decoration: none;
+    background-color: rgba(42, 136, 251, 0.8);
+    color: white;
+    padding: 15px 30px;
+    font-size: bold;
+    border-radius: 12px;
+    box-shadow: 4px 4px 7px black;
+}
+
+#hero-content a:hover {
+    background-color: rgba(34, 107, 196, 0.8);
+
+}
+#highlights{
+    /* align-items: center; */
+}
+#highlights ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#highlights img{
+    width: 200px;
+}
