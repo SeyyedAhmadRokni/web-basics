@@ -8,23 +8,31 @@ header{
 
 main ul{
     width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 70px
 }
 
 main li{
     display: flex;
-    justify-content: space-between;
     background: linear-gradient(90deg, rgb(161, 182, 252), rgb(127, 156, 250));
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.289);
     border-radius: 8px;
     overflow: hidden;
 }
+
+main li:nth-of-type(3){
+    grid-column: 1 / span 2;
+}
+
 main ul img {
-    width: 200px;
-    height: 320px;
+    width: 30%;
+    height: 100%;
     object-fit: cover;
 }
 
 .item-content{
+    width: 100%;
     color: rgb(42, 42, 42);
     padding: 20px;
     text-shadow: 1px 2px 3px rgb(128, 128, 128);
@@ -35,6 +43,8 @@ main ul img {
 
 .item-content h2{
     font-size: 40px;
+    text-transform: capitalize;
+    margin: 0;
 }
 .item-content p{
     font-size: 25px;
@@ -50,6 +60,7 @@ main ul img {
     font-size: 23px;
     padding: 8px 10px;
     border-radius: 4px;
+    text-transform: capitalize;
 }
 
 .explore-link a:hover{
