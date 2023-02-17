@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    background:linear-gradient(180deg,rgb(172, 85, 253), rgb(180, 94, 255));
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 10px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a{
+    padding: 9px 13px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.149);
+}
+
+.nav-item a:hover{
+    background-color: rgb(245, 238, 248);
+    color: rgb(180, 94, 255);
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(245, 238, 248);
+}
+
+
+#logo{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 50px;
+    font-weight: 100 ;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.402);
+
+}
